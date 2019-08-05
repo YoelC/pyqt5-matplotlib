@@ -63,8 +63,7 @@ class Main(QtWidgets.QMainWindow):
         self.m = PlotCanvas()
         self.gridLayout.addWidget(self.m, 1, 0, 1, 2)
 
-        # ERASE BUTTON cuz fuck you
-
+        # 'Erase' pushButton
         self.pushButton = QtWidgets.QPushButton()
         self.pushButton.setText("Erase")
         self.pushButton.clicked.connect(self.erase)
